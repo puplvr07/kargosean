@@ -141,6 +141,8 @@ tr:last-child td { border-bottom: 0 !important; }
 }
 .kargo-primary:hover:not(:disabled) { background: #14168f !important; opacity: 1 !important; }
 .kargo-primary:disabled { background: #b8c1c6 !important; }
+.pl .kargo-primary, .pu:not(.kargo-original-app) .kargo-primary { background: #A84D38 !important; }
+.pl .kargo-primary:hover:not(:disabled), .pu:not(.kargo-original-app) .kargo-primary:hover:not(:disabled) { background: #8F3E2F !important; }
 .kargo-secondary {
   border-color: #c7d4dc !important;
   color: var(--kargo-ink-soft) !important;

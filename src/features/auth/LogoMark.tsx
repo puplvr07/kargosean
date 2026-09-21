@@ -11,7 +11,8 @@ export default function LogoMark({ size = 40 }: { size?: number }) {
         style={{
           display: "block",
           borderRadius: size * 0.22,
-          boxShadow: "0 4px 14px rgba(25,27,169,0.28)",
+          boxShadow: "0 4px 14px rgba(168,77,56,0.28)",
+          filter: "hue-rotate(130deg) saturate(0.9)",
           objectFit: "cover",
         }}
       />
