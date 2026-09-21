@@ -139,7 +139,7 @@ export default function App() {
       )}
       {stage === "app" && (
         <div
-          className="pu kargo-original-app"
+          className="pu kargo-original-app kargo-original-retro"
           style={{
             background: CREAM,
             minHeight: "100vh",

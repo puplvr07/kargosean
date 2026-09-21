@@ -1,7 +1,7 @@
 import type { ClaimStatus } from "@/types"
 
 // ─── Palette ──────────────────────────────────────────────────────────────────
-export const RETRO_THEME = false
+export const RETRO_THEME = true
 export const INDIGO = RETRO_THEME ? "#A84D38" : "#191BA9"
 export const CREAM = RETRO_THEME ? "#FBF4E3" : "#F7F3F3"
 export const CYAN_L = RETRO_THEME ? "#DDE9E0" : "#DEF3FA"
